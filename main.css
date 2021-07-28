@@ -35,6 +35,7 @@ body {
   scroll-behavior: smooth;
   -ms-scroll-snap-type: none;
       scroll-snap-type: none;
+  overflow-x: hidden;
 }
 
 section {
