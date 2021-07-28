@@ -44,7 +44,6 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px dashed red;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -226,7 +225,6 @@ li {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  border: 1px dashed black;
 }
 
 .container div {
