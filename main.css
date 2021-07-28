@@ -20,7 +20,6 @@ body {
   line-height: 1.6;
   height: 100vh;
   font-family: 'Poppins';
-  overflow: hidden;
   overflow-x: hidden;
 }
 
@@ -31,11 +30,6 @@ body {
 .page {
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  -ms-scroll-snap-type: none;
-      scroll-snap-type: none;
-  overflow-x: hidden;
 }
 
 section {
@@ -52,9 +46,6 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  scroll-snap-align: center;
-  position: -webkit-sticky;
-  position: sticky;
   top: 60px;
 }
 
