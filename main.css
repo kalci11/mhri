@@ -260,8 +260,19 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2px;
-  padding: 2px;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 2em;
+  margin-left: 20px;
+}
+
+.cta-logo {
+  max-width: 50px;
+}
+
+.cta-text {
+  text-align: left;
 }
 
 .content2 {

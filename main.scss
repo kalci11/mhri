@@ -189,8 +189,16 @@ li{
 .cta-add,.cta-phone{
     display: flex;
     align-items: center;
-    margin: 2px;
-    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    margin-left: 20px;
+}
+.cta-logo{
+    max-width: 50px;
+}
+.cta-text{
+        text-align: left;
 }
 
 .content2{
